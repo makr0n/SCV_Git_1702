@@ -1,4 +1,6 @@
-# Git_practice 
+# Git practice instruction 
+![gitlogo](Gitlogo.png)
+
 
 ## 1. Checking  installed git version
 
@@ -30,6 +32,7 @@ Initialized empty Git repository in (Path to your  directory)
 Next thing to do is creating new file in your repository (or maybe copying one). For example create file "practice_lesson.md". Always remember that the **file must have an extension**. 
 
 Git doesn't control your file yet, we need to tell it to do this by using command `git add (file_name)`. After this git starts to control versions of added file and you can work further. 
+
 
 
 
