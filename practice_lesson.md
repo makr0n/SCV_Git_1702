@@ -15,3 +15,16 @@ git config --global user.name "Your name"
 git config --global user.mail "e-mail"
 ```
 
+## 4. Creating your first repository
+
+After setting git you have to create __repository__ for your further work. To do this, use the command `git init` in terminal.
+After this you receive next message:
+
+---
+Initialized empty Git repository in (Path to your  directory)
+
+---
+
+
+
+
