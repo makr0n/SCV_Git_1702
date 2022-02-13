@@ -27,7 +27,7 @@ Initialized empty Git repository in (Path to your  directory)
 
 ---
 
-## 5.Work with repository
+## 5.Work with file in repository
  
 Next thing to do is creating new file in your repository (or maybe copying one). For example create file "practice_lesson.md". Always remember that the **file must have an extension**. 
 
@@ -45,6 +45,17 @@ Repeat all steps again:
 5. Commiting changes by command `git commit -m "Comment"`.
 6. Repeat steps 2-6 as you work.
 
+## 6. Work with repository
+  
+  Now you have file you are working with. You can check status of it by using command `git status`. If you change nothing next message will appear (or you don't save your changes yet):
+  
+  ```
+  $ git status
+On branch master
+nothing to commit, working tree clean
+```
+Else you have this message:
+```
 
 
 
