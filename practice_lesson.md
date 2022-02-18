@@ -135,4 +135,16 @@ Switched to branch 'master'
 ```
 
 
+## 8.Git branches and working with them
+A branch, at its core, is a unique series of code changes with a unique name. Each repository can have one or more branches.
+ ![branch](branch.jpg)
 
+### 8.1. Creating branches in Git
+
+ ### 8.2. Merging branches
+
+ ### 8.3. Resolving merge conflicts
+
+ ### 8.4. Deleting branches
+
+## 9.Remote repo. working with GitHub.
