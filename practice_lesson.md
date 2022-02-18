@@ -66,6 +66,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 Also you can check changes between commits by command `git diff`.
+The `git diff` command shows the differences between the files in two commits or between your current repository and a previous commit.
 You get next lines in terminal:
 
 ![git diff](gitdiff.PNG)
