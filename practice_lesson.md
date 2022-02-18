@@ -134,10 +134,27 @@ Previous HEAD position was 7b399c6 Git commit instruction added
 Switched to branch 'master'
 ```
 
+## 7. Ignoring files, using .gitignore
+Not all files created or updated in the code should be committed to **Git**. Temporary files from the development environment, test outputs and logs, images are all examples of files that are created, but are not part of the code base.
+For these purposes , we will create and use file `.gitignore.`
+File `.gitignore` allows you to exclude files from checking in the repository. 
+It is a simple text file, each line of which contains a file or directory template that must be ignored.
+
+For example:
+```
+1. Gitlogo.png
+2. git_commit.png
+3. *.jpg
+```
+First and second line contains exact names of image files that should be ignored.
+Third line tells Git to ignore **ALL** .jpg files in the directory.
+More about `.gitignore` file structure: https://git-scm.com/docs/gitignore 
+
 
 ## 8.Git branches and working with them
 A branch, at its core, is a unique series of code changes with a unique name. Each repository can have one or more branches.
  ![branch](branch.jpg)
+
 
 ### 8.1. Creating branches in Git
 
