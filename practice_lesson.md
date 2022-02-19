@@ -180,6 +180,3 @@ After the above steps, you can proceed to **merge**. To do this, run the `git me
 
 ### 8.3. Resolving merge conflicts
 Add text to create conflict
-### 8.4. Deleting branches
-
-## 9.Remote repo. working with GitHub.
