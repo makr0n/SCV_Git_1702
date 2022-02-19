@@ -170,7 +170,7 @@ The example shows a *list* of created branches. The branch named **master** is t
 Switching between branches using the already familiar `git checkout <branch_name>` command.
 
 ### 8.2. Merging branches
-
+a123445455
 ### 8.3. Resolving merge conflicts
 Add text to create conflict
 ### 8.4. Deleting branches
