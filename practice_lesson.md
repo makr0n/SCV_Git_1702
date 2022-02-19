@@ -157,11 +157,13 @@ A branch, at its core, is a unique series of code changes with a unique name. Ea
 
 
 ### 8.1. Creating branches in Git
+To create a new branch, use the command `git branch <branch_name>`
+To check if a branch has been created, as well as to see the _list_ of already created ones, use the command `git branch`  (note the differences from the previous one).
 
- ### 8.2. Merging branches
+### 8.2. Merging branches
 
- ### 8.3. Resolving merge conflicts
+### 8.3. Resolving merge conflicts
 
- ### 8.4. Deleting branches
+### 8.4. Deleting branches
 
 ## 9.Remote repo. working with GitHub.
