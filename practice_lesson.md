@@ -202,4 +202,3 @@ If you need to delete the current branch, then first you need to switch to some 
 The other way of cleaning up *local* branches on **Git** is to use the `git branches -D <branch name>`
 In this case, the “-D” option stands for “–delete -force” and it is used when your local branches are **not merged yet**.
 
-## 9.Remote repo. working with GitHub.
