@@ -179,7 +179,15 @@ Before merging, several preparatory actions should be taken so that the operatio
 After the above steps, you can proceed to **merge**. To do this, run the `git merge <receiving_branch>` command, where <receiving_branch> is the name of the branch that will be merged with the host (master branch as example).
 
 ### 8.3. Resolving merge conflicts
-Add text to create conflict
+
+Sometimes the merging process doesn't go smoothly. If you have changed the same part of the same file differently in two merged branches, **Git** will not be able to merge them cleanly. If this happened, Git alert you with these:
+![conflict](conflict.png)
+In the red rectangle are 4 different actions that you can take.
+1. Accept Current Change: leaves the current state of the file without replacing it with incoming content.
+2. Accept Incoming Change: replaces the current state of the file with incoming content 
+3. Accept Both Changes: adds the contents of both branches.
+4. Compare changes: allow you to see both files simultaneously (and decide what to do next).
+
 ### 8.4. Deleting branches
 
 To delete a _local_ branch in **Git**, run the command `git branches -d <branch name>`. The “-d” option stands for “–delete” and it can be used whenever the branch you want to clean up is completely merged with your main branch.
