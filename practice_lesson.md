@@ -171,6 +171,9 @@ Switching between branches using the already familiar `git checkout <branch_name
 
 ### 8.2. Merging branches
 
+Merging is used in Git to piece together a branched history. The `git merge` command merges individual branches created using the `git branch` command into a single branch.
+The `git merge` command combines several commit sequences into a common history. Most often, the `git merge` command is used to merge two branches. In such cases, the git merge command takes two pointers to commits (usually the last ones in the branch) and finds a parent commit common to them. Git then creates a __merge commit__ that combines the changes from both sequences selected for the merge.
+
 ### 8.3. Resolving merge conflicts
 Add text to create conflict
 ### 8.4. Deleting branches
