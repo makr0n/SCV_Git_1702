@@ -172,7 +172,7 @@ Switching between branches using the already familiar `git checkout <branch_name
 ### 8.2. Merging branches
 
 ### 8.3. Resolving merge conflicts
-
+Add text to create conflict
 ### 8.4. Deleting branches
 
 ## 9.Remote repo. working with GitHub.
