@@ -168,6 +168,7 @@ To check if a branch has been created, as well as to see the _list_ of already c
 The example shows a *list* of created branches. The branch named **master** is the main one by default and is created at the time of repository initialization by the `git init` command. The rest of the branches are created by the user with the command `git branch <branch_name>`. It should be noted that an _asterisk_ marks the **currently active branch** (also it is showed green). 
 
 Switching between branches using the already familiar `git checkout <branch_name>` command.
+Also you can create and switch to a branch simultaneously by using command `git checkout -b <branch_name>`
 
 ### 8.2. Merging branches
 
