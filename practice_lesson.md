@@ -160,6 +160,15 @@ A branch, at its core, is a unique series of code changes with a unique name. Ea
 To create a new branch, use the command `git branch <branch_name>`
 To check if a branch has been created, as well as to see the _list_ of already created ones, use the command `git branch`  (note the differences from the previous one).
 
+---
+![example_branch](example_branch.PNG)
+
+---
+
+The example shows a *list* of created branches. The branch named **master** is the main one by default and is created at the time of repository initialization by the `git init` command. The rest of the branches are created by the user with the command `git branch <branch_name>`. It should be noted that an _asterisk_ marks the **currently active branch** (also it is showed green). 
+
+Switching between branches using the already familiar `git checkout <branch_name>` command.
+
 ### 8.2. Merging branches
 
 ### 8.3. Resolving merge conflicts
