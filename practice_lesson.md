@@ -1,7 +1,6 @@
 # Git practice instruction 
 ![gitlogo](Gitlogo.png)
 
-
 ## 1. Checking  installed git version
 
 Execute command `git version` in terminal.
@@ -23,7 +22,7 @@ After setting git you have to create __repository__ for your further work. To do
 After this you receive next message:
 
 ---
-Initialized empty Git repository in (Path to your  directory)
+Initialized empty **Git** repository in (Path to your  directory)
 
 ---
 
@@ -31,7 +30,7 @@ Initialized empty Git repository in (Path to your  directory)
  
 Next thing to do is creating new file in your repository (or maybe copying one). For example create file "practice_lesson.md". Always remember that the **file must have an extension**. 
 
-Git doesn't version control your file yet, we need to tell it to do this by using command `git add (file_name)`. After this git starts to control versions of added file and you can work further. Remember to save file after making any changes by pressing __Ctrl+S__ (for Windows) or **Command+S** (for  Mac).
+**Git** doesn't version control your file yet, we need to tell it to do this by using command `git add (file_name)`. After this git starts to control versions of added file and you can work further. Remember to save file after making any changes by pressing __Ctrl+S__ (for Windows) or **Command+S** (for  Mac).
 
 Now to commit any changes we need use command `git commit -m "Comment"`. After use you get this:
 
@@ -147,7 +146,7 @@ For example:
 3. *.jpg
 ```
 First and second line contains exact names of image files that should be ignored.
-Third line tells Git to ignore **ALL** .jpg files in the directory.
+Third line tells **Git** to ignore **ALL** _.jpg_ files in the directory.
 More about `.gitignore` file structure: https://git-scm.com/docs/gitignore 
 
 
