@@ -175,7 +175,15 @@ Merging is used in Git to piece together a branched history. The `git merge` com
 The `git merge` command combines several commit sequences into a common history. Most often, the `git merge` command is used to merge two branches. In such cases, the git merge command takes two pointers to commits (usually the last ones in the branch) and finds a parent commit common to them. Git then creates a __merge commit__ that combines the changes from both sequences selected for the merge.
 
 ### 8.3. Resolving merge conflicts
-Add text to create conflict
+
+Sometimes the merging process doesn't go smoothly. If you have changed the same part of the same file differently in two merged branches, **Git** will not be able to merge them cleanly. If this happened, Git alert you with these:
+![conflict](conflict.png)
+In the red rectangle are 4 different actions that you can take.
+1. Accept Current Change: leaves the current state of the file without replacing it with incoming content.
+2. Accept Incoming Change: replaces the current state of the file with incoming content 
+3. Accept Both Changes: adds the contents of both branches.
+4. Compare changes: allow you to see both files simultaneously (and decide what to do next).
+
 ### 8.4. Deleting branches
 
 ## 9.Remote repo. working with GitHub.
