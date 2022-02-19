@@ -180,3 +180,18 @@ After the above steps, you can proceed to **merge**. To do this, run the `git me
 
 ### 8.3. Resolving merge conflicts
 Add text to create conflict
+### 8.4. Deleting branches
+
+To delete a _local_ branch in **Git**, run the command `git branches -d <branch name>`. The “-d” option stands for “–delete” and it can be used whenever the branch you want to clean up is completely merged with your main branch.
+Please note that the branch you are deleting **should not be your current active branch**, otherwise an error will be displayed.:
+
+```
+$ git branch -d deleting_branches
+error: Cannot delete branch 'deleting_branches' checked out at 'directory path'
+```
+If you need to delete the current branch, then first you need to switch to some other branch using `git checkout <branch_name>`, and only then perform the deletion.
+
+The other way of cleaning up *local* branches on **Git** is to use the `git branches -D <branch name>`
+In this case, the “-D” option stands for “–delete -force” and it is used when your local branches are **not merged yet**.
+
+## 9.Remote repo. working with GitHub.
