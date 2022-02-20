@@ -203,3 +203,36 @@ If you need to delete the current branch, then first you need to switch to some 
 The other way of cleaning up *local* branches on **Git** is to use the `git branches -D <branch name>`
 In this case, the “-D” option stands for “–delete -force” and it is used when your local branches are **not merged yet**.
 
+## 9.Remote repo. working with GitHub.
+
+To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. You can have several of them, each of which generally is either read-only or read/write for you. Collaborating with others involves managing these remote repositories and pushing and pulling data to and from them when you need to share work.
+
+First of all you need to create an GitHub account.
+Go to https://github.com and click Sign up for GitHub:
+![githubsignup](githubsignup.png)
+
+### 9.1 Linking a local repository to GitHub
+1. Create new repository on GitHub by clicking green button `NEW`, add a name, click `Create repository`.
+2. Then GitHub helps you with this:
+![help](githelps.PNG)
+This is a three way to create a new repo. We need second one.
+3. Copy three lines: 
+
+```
+git remote add origin https://github.com/makr0n/1.git
+git branch -M main
+git push -u origin main
+```
+and use them in the terminal. First one create a link between repos. Second one renames your **master** branch into **main**. Third one upload local repo to the GitHub.
+
+### 9.2 Cloning remote repo 
+You can actually add remote repo at your workplace by using command `git clone <remote_repo_address>`. <remote_repo_address> is a URL address ypu can get from necessary repo from GitHub.
+
+### 9.3 git push & git pull commands
+ `git push` command uses when you need update remote repo witn changes that you make locally.
+ `git pull` command uses when you need to update your local repo from remote one.
+ 
+
+
+
+
