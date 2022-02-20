@@ -187,6 +187,7 @@ In the red rectangle are 4 different actions that you can take.
 2. Accept Incoming Change: replaces the current state of the file with incoming content 
 3. Accept Both Changes: adds the contents of both branches.
 4. Compare changes: allow you to see both files simultaneously (and decide what to do next).
+After you have selected the solution option and made it, you need to make a **merge commit**.
 
 ### 8.4. Deleting branches
 
