@@ -232,7 +232,7 @@ You can actually add remote repo at your workplace by using command `git clone <
  `git push` command uses when you need update remote repo witn changes that you make locally.
  `git pull` command uses when you need to update your local repo from remote one.
  
-
+1
 
 
 
